@@ -138,9 +138,9 @@ ax.scatter(*end4, marker="^", s=80, c="red")
 ax.scatter(*end5, marker="^", s=80, c="red")
 
 # 坐标轴设置
-ax.set_xlabel("X [m]", labelpad=10)  # 10是典型的默认间距，可调整
-ax.set_ylabel("Y [m]", labelpad=10)
-ax.set_zlabel("Z [m]", labelpad=10)
+ax.set_xlabel("X (m)", labelpad=4)  # 10是典型的默认间距，可调整
+ax.set_ylabel("Y (m)", labelpad=4)
+ax.set_zlabel("Z (m)", labelpad=4)
 ax.set_xlim(-1, 13)
 ax.set_ylim(-1, 13)
 ax.set_zlim(-1, 10.5)

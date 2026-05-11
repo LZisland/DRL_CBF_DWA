@@ -137,9 +137,9 @@ ax.scatter(*start, marker="*", s=80, c="black")
 ax.scatter(*end, marker="^", s=80, c="red")
 
 # 坐标轴设置
-ax.set_xlabel("X [m]", labelpad=10)  # 10是典型的默认间距，可调整
-ax.set_ylabel("Y [m]", labelpad=10)
-ax.set_zlabel("Z [m]", labelpad=10)
+ax.set_xlabel("X (m)", labelpad=4)  # 10是典型的默认间距，可调整
+ax.set_ylabel("Y (m)", labelpad=4)
+ax.set_zlabel("Z (m)", labelpad=4)
 ax.set_zticks([0, 5, 10])
 # 等比例坐标轴
 ax.set_box_aspect([1, 1, 1])

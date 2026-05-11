@@ -105,9 +105,9 @@ ax.plot_surface(x_sphere, y_sphere, z_sphere, color='gray', alpha=0.2, linewidth
 ax.scatter(*start, marker="o", s=60, c="black")
 ax.scatter(*end, marker="^", s=80, c="red")
 
-ax.set_xlabel("X [m]", labelpad=10)  # 10是典型的默认间距，可调整
-ax.set_ylabel("Y [m]", labelpad=10)
-ax.set_zlabel("Z [m]", labelpad=10)
+ax.set_xlabel("X (m)", labelpad=4)  # 10是典型的默认间距，可调整
+ax.set_ylabel("Y (m)", labelpad=4)
+ax.set_zlabel("Z (m)", labelpad=4)
 ax.view_init(elev=80, azim=-90)
 ax.set_zticks([0, 10, 20])
 # 示例：从 [6,5,5] 指向 [5,5,5]，即 XOY 平面中指向球心

@@ -27,7 +27,7 @@ class DWA:
         # 轨迹推算时间长度
         self.predict_time = 1.5
         # # 轨迹评价函数系数
-        self.alpha = 100
+        self.alpha = 2
         self.beta = 1
         self.gamma = 0.01
         # self.alpha = []
